@@ -10,8 +10,8 @@ input = gets.strip
 
 def input_to_index(input)
 input_to_index = input.to_i
-index = input_to_index - 1
 end
+index = input_to_index - 1
 
 def update_array_at_with(board, index, value)
 board[index] = value
