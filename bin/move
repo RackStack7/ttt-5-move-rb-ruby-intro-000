@@ -10,7 +10,7 @@ input = gets.strip
 
 index = input_to_index(input)
 
-def update_array_at_with(board, index, value="X")
+def update_array_at_with(board, index, value = "X")
 board[index] = value
 end
 
