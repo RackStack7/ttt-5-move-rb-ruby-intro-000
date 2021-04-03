@@ -8,10 +8,7 @@ board = [" ", " ", " "," ", " ", " "," ", " ", " "]
 puts "Where would you like to go?"
 input = gets.strip
 
-def input_to_index(input)
-input_to_index = input.to_i
-end
-index = input_to_index - 1
+index = input_to_index(input)
 
 def update_array_at_with(board, index, value)
 board[index] = value
